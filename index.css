@@ -1,0 +1,190 @@
+/* 기본적인 페이지 레이아웃 설정 */
+.min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .bg-gradient-to-b {
+    background: linear-gradient(to bottom, #fef3c7, #fde68a, #fbbf24);
+  }
+  
+  .text-gray-800 {
+    color: #1f2937;
+  }
+  
+  .bg-yellow-500 {
+    background-color: #f59e0b;
+  }
+  
+  .bg-opacity-90 {
+    background-color: rgba(245, 158, 11, 0.9);
+  }
+  
+  .sticky {
+    position: sticky;
+  }
+  
+  .top-0 {
+    top: 0;
+  }
+  
+  .z-10 {
+    z-index: 10;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* 컨테이너 레이아웃 */
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 1rem;
+  }
+  
+  /* 패딩과 여백 설정 */
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .mb-24 {
+    margin-bottom: 6rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  /* 버튼과 이미지 스타일 */
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  .bg-yellow-600 {
+    background-color: #d97706;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .bg-yellow-400 {
+    background-color: #fbbf24;
+  }
+  
+  .hover\:bg-yellow-500:hover {
+    background-color: #f59e0b;
+  }
+  
+  /* 그림자 효과 */
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* 이미지 스타일 */
+  .image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .border-4 {
+    border-width: 4px;
+  }
+  
+  .border-yellow-600 {
+    border-color: #d97706;
+  }
+  
+  /* 링크 스타일 */
+  .text-yellow-800 {
+    color: #92400e;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }
+  
+  /* 배경과 버튼의 그라디언트 */
+  .bg-gradient-to-r {
+    background: linear-gradient(to right, #f59e0b, #d97706);
+  }
+  
+  /* 버튼 호버 시 애니메이션 */
+  .transition-all {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .transform {
+    transform: scale(1);
+  }
+  
+  .hover\:scale-105:hover {
+    transform: scale(1.05);
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  /* 텍스트 정렬 */
+  .text-center {
+    text-align: center;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,122 @@
+/* 기존 내용을 모두 지우고 다음 내용으로 대체하세요 */
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #fef3c7, #fde68a, #fbbf24);
+}
+
+.text-gray-800 {
+  color: #1f2937;
+}
+
+.bg-yellow-500 {
+  background-color: #f59e0b;
+}
+
+.bg-opacity-90 {
+  background-color: rgba(245, 158, 11, 0.9);
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.bg-yellow-600 {
+  background-color: #d97706;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-yellow-400 {
+  background-color: #fbbf24;
+}
+
+.hover\:bg-yellow-500:hover {
+  background-color: #f59e0b;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.image {
+  width: 100%;
+  max-width: 800px; /* 이미지의 최대 너비를 조절하세요 */
+  height: auto;
+  margin-bottom: 20px; /* 이미지 사이의 간격 */
+}
+
+/* 나머지 필요한 스타일들을 여기에 추가하세요 */
